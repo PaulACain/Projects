@@ -5,46 +5,51 @@
     <title></title>
   </head>
   <body>
-<!--- Not sure if I was meant to stylise this -->
+    <div class="header-menu nav-wrapper">
+
+  <ul class="main-menu accessibleNav">
+
+    <li =class="child kids-0"
+      <a href="#" class="nav-link" id="Shop">Shop</a>
+    </li>
+
+<!-- Is the space between child and kid important? -->
+
+  <li class="child  kids-0">
+    <a href="/pages/about-us" class="nav-link" id="About">About</a>
+  </li>
+
+<!-- I understand a is an anchor, but why couldn't I just use 3 seperat
+lines for its link, class, and id? Is it a way of nesting?-->
+
+  <li class="child  kids-0">
+    <a href="/pages/process" class="nav-link" id="Process">Process</a>
+  </li>
+
+  <li class="child  kids-0">
+    <a href="/blogs/from-the-studio" class="nav-link" id="Blog">Blog</a>
+  </li>
+
+  <li class="child  kids-0">
+    <a href="/pages/book" class="nav-link" id="Book">Book</a>
+  </li>
+
+  <li class="child  kids-0">
+    <a href="/pages/visit-us" class="nav-link" id="Visit Us">Visit Us</a>
+  </li>
+
+  <li class="child  kids-0">
+    <a href="/pages/contact" class="nav-link" id="Contact">Contact</a>
+  </li>
+
+    <li class="cart-text-link">
+      <a href="/cart" class="CartToggle">
+        Bag
+        <span class=" hidden-count " id="nav-cartCountDesktop">(0)</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
   </body>
-  <div class="header__wrapper offset-nav">
-
-      <div class="info-bar showDesktop">
-        <div class="wrapper">
-          <div class="text-left">
-
-
-
-           <p class="site-header--text-links marketing-link">
-
-               <a href="/account/login" id="customer_login_link">Log in</a>
-
-               &nbsp; · &nbsp;
-               <a href="/account/register" id="customer_register_link">Create account</a>
-                <!--- What does &nbsp; mean? --->
-
-           </p>
-
-          </div>
-
-          <div class="marketing-top marketing-top--hidden">
-            <a class="marketing-link" href="https://rebeccaatwood.com/pages/newsletter-sign-up">Want an additional discount for our Give Thanks sale? Sign up for our newsletter here.</a>
-          </div>
-
-
-          <div class="header-search__wrapper">
-            <div class="header-search">
-              <form action="/search" method="get" class="input-group search" role="search">
-                <!---No familar with, method, or role=, also name=q?--->
-
-                <input class="search-bar snize-input-style" type="search" name="q" placeholder="Search" autocomplete="off">
-                <button type="submit" class="btn search-btn"></button>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
 </html>
